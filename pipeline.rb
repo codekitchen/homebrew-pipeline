@@ -1,9 +1,8 @@
-# Documentation: https://docs.brew.sh/Formula-Cookbook
-#                https://rubydoc.brew.sh/Formula
-# PLEASE REMOVE ALL GENERATED COMMENTS BEFORE SUBMITTING YOUR PULL REQUEST!
 class Pipeline < Formula
   desc "pipeline makes building up a pipeline of shell commands easier"
   homepage "https://github.com/codekitchen/pipeline"
+  url "https://github.com/codekitchen/pipeline/releases/download/v1.0/pipeline-1.0.tar.gz"
+  sha256 "83aae11654f73352491a900a9256bcbbec355b382e735d09f47df099afd533b9"
   head do
     url "https://github.com/codekitchen/pipeline.git"
 
@@ -22,6 +21,8 @@ class Pipeline < Formula
   end
 
   test do
+    # this is an interactive-only shell tool, so about the only thing we can do
+    # without user interaction is run --version
     assert_match "pipeline", shell_output("#{bin}/pipeline --version")
   end
 end
