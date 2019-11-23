@@ -1,5 +1,5 @@
 class Pipeline < Formula
-  desc "pipeline makes building up a pipeline of shell commands easier"
+  desc "Interactive prompt for building up a pipeline of shell commands"
   homepage "https://github.com/codekitchen/pipeline"
   url "https://github.com/codekitchen/pipeline/releases/download/v1.0/pipeline-1.0.tar.gz"
   sha256 "83aae11654f73352491a900a9256bcbbec355b382e735d09f47df099afd533b9"
