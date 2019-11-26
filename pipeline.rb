@@ -1,8 +1,8 @@
 class Pipeline < Formula
   desc "Interactive prompt for building up a pipeline of shell commands"
   homepage "https://github.com/codekitchen/pipeline"
-  url "https://github.com/codekitchen/pipeline/releases/download/v1.1/pipeline-1.1.tar.gz"
-  sha256 "010ccdcbc523eb320b628ef75e77b37a02ad1a1e6fb4f51d4fa8f3d8df70e446"
+  url "https://github.com/codekitchen/pipeline/releases/download/v1.2/pipeline-1.2.tar.gz"
+  sha256 "20d0ff432722b44d378e137d02d93bde17c1f86efca28cd24e8243f2314a8747"
   head do
     url "https://github.com/codekitchen/pipeline.git"
 
