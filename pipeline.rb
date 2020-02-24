@@ -1,7 +1,7 @@
 class Pipeline < Formula
   desc "Interactive prompt for building up a pipeline of shell commands"
   homepage "https://github.com/codekitchen/pipeline"
-  url "https://github.com/codekitchen/pipeline.git", :tag => "v1.5", :revision => "fdc56743fd9209abdc38db56c37e440c4a599e19"
+  url "https://github.com/codekitchen/pipeline/releases/download/v1.4/pipeline-1.5.tar.gz"
   sha256 "d334b41a26a0a69d1e2ac2c952dc20a48480805673f4a9c086372b4a15cbc719"
   head do
     url "https://github.com/codekitchen/pipeline.git", :tag => "v1.5", :revision => "fdc56743fd9209abdc38db56c37e440c4a599e19"
