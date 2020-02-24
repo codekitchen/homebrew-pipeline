@@ -1,10 +1,10 @@
 class Pipeline < Formula
   desc "Interactive prompt for building up a pipeline of shell commands"
   homepage "https://github.com/codekitchen/pipeline"
-  url "https://github.com/codekitchen/pipeline/releases/download/v1.4/pipeline-1.4.tar.gz"
+  url "https://github.com/codekitchen/pipeline.git", :tag => "v1.5", :revision => "cfad3b8861c788764fecd1723e33c83894701431"
   sha256 "d334b41a26a0a69d1e2ac2c952dc20a48480805673f4a9c086372b4a15cbc719"
   head do
-    url "https://github.com/codekitchen/pipeline.git"
+    url "https://github.com/codekitchen/pipeline.git", :tag => "v1.5", :revision => "cfad3b8861c788764fecd1723e33c83894701431"
 
     depends_on "autoconf" => :build
     depends_on "automake" => :build
